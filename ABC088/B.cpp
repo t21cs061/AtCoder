@@ -8,9 +8,9 @@ int main(){
 
     vector<int> a(n);
 
-    rep(i, n)
-        cin >> a.at(i);
-    
+    for(auto &x: a)
+        cin >> x;
+
     sort(a.begin(), a.end());
     reverse(a.begin(), a.end());
 
