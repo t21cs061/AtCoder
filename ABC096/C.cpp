@@ -3,7 +3,7 @@
 using namespace std;
 #define rep(i, n) for (int i=0; i<(int)(n); i++)
 int dx[4] = {-1, 0, 0, 1};
-int dy[8] = {0, -1, 1, 0};
+int dy[4] = {0, -1, 1, 0};
 
 int main(){
     int H, W;
